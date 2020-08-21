@@ -1,6 +1,6 @@
 # Vue 3 TypeScript route transition
 
-Developing with Vite.
+Built with Vite.
 
 ```sh
 # install dependencies
