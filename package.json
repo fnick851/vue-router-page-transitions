@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build --bse=/fnick851/vue-router-page-transitions/"
   },
   "dependencies": {
-    "vue": "^3.0.0-rc.1"
+    "vue": "^3.0.0-rc.1",
+    "vue-router": "4.0.0-beta.7"
   },
   "devDependencies": {
     "vite": "^1.0.0-rc.1",

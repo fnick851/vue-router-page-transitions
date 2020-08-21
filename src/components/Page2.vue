@@ -1,23 +1,19 @@
 <template>
-  <div>
+  <div class="page">
     Page Two
   </div>
 </template>
 
 <script>
-export default {
+import { defineComponent } from "vue";
+
+export default defineComponent({
   name: "Page2",
-};
+});
 </script>
 
 <style scoped>
 div {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
   color: gray;
   background-color: skyblue;
 }
