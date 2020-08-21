@@ -1,16 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite + TypeScript + Vue Router" />
+  <Page1 />
+  <!-- <Page2 /> -->
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import Page1 from "./components/Page1.vue";
+import Page2 from "./components/Page2.vue";
 
 export default defineComponent({
   name: "App",
   components: {
-    HelloWorld,
+    Page1,
+    Page2,
   },
 });
 </script>
